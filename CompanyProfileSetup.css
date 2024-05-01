@@ -1,0 +1,81 @@
+/* Use the same styles as for the welcome screen */
+
+.company-setup {
+    text-align: center;
+  }
+  
+  .company-setup h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .company-setup form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .company-setup label {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .company-setup input, .company-setup select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .company-setup button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .company-setup button:hover {
+    background-color: #0056b3;
+  }
+  .navbar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav-links li a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,122 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Welcome Screen */
+  .welcome-screen {
+   
+    padding: 340px 0;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .welcome-screen h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-screen p {
+    font-size: 18px;
+    margin-bottom: -100px;
+    margin-left: -350px;
+    
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  /* .welcome-image {
+    text-align: center;
+  }
+  
+  .welcome-image img {
+    max-width: 100%;
+    height: auto;
+  }
+   */
+   /* Footer */
+.footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 70px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer .language-options {
+    margin-bottom: 20px;
+  }
+  
+  .footer .language-options label {
+    margin-right: 10px;
+  }
+  
+  .footer .language-options select {
+    padding: 5px 10px;
+    font-size: 1rem;
+  }
+  
+  .footer .culture-image img {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+  }

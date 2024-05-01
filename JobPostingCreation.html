@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Job Posting</title>
+  <link rel="stylesheet" href="JobPostingCreation.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">Talent Connect</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        
+      </ul>
+    </div>
+  </nav>
+  <div class="job-posting">
+    <h1>Create Job Posting</h1>
+    <form>
+      <div>
+      
+      <h2 for="job-title">Job Title:</label><h2>
+      <input type="text" id="job-title" name="job-title" required>
+       
+       <div>
+      <h2 for="job-description">Job Description:</label><h2>
+      <textarea id="job-description" name="job-description" rows="3"  required></textarea>
+      </div>
+      <div>
+      <h2 for="requirements">Requirements:</label><h2>
+      <textarea id="requirements" name="requirements" rows="3" required></textarea>
+    </div>
+    <div>
+      <h2 for="salary">Salary:</label><h2>
+      <input type="text" id="salary" name="salary" required>
+    </div>
+      <button type="submit">Post Job</button>
+    </form>
+  </div>
+  </div>
+</body>
+</html>
